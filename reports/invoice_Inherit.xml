@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="medsaf_invoice_inherit" inherit_id="account.report_invoice_document">
+        <xpath expr="//p[@t-if='o.reference']" position="after">
+            <div class="row">
+                <table class="table table-sm table-borderless">
+                    <tr><td>Account Name: Disrupt Pharma Tech Limited</td></tr>
+                    <tr><td>Account number: 0232909459</td></tr>
+                    <tr><td>Bank: Guaranty Trust Bank Plc</td></tr>
+                    <tr><td>TIN: 20045841-0001</td></tr>
+                </table>
+            </div>
+        </xpath>
+    </template>
+</odoo>
